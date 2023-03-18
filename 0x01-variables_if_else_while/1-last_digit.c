@@ -14,15 +14,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-  if (n.Substring(n.Length - 1) > 5)
+	if (n % 10 > 5)
 	{
 		printf("%d is positive\n", n);
+		printf("Last digit of %n is %n and is greater than 5", n, n%10);
 	}
-	else if (n.Substring(n.Length - 1) < 6 && n.Substring(n.Length - 1) != 0)
+	else if (n % 10 < 6 && n % 10 != 0)
 	{
 		printf("%d is negative\n", n);
 	}
-	else if (n.Substring(n.Length - 1) == 0)
+	else if (n % 10 == 0)
 	{
 		printf("%d is zero\n", n);
 	}
