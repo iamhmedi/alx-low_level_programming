@@ -10,11 +10,16 @@
 
 int main(void)
 {
-	char C;
+	int C;
 
 	for (C = '0'; C <= '9'; C++)
 	{
 		putchar(C);
+		if (C != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		putchar(', ');
 	}
 	putchar('\n');
