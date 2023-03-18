@@ -11,16 +11,16 @@
 int main(void)
 {
 	char C;
-  char x;
+	char x;
 
 	for (C = '0'; C <= '9'; C++)
 	{
 		putchar(C);
 	}
-  for (x = 'a'; x = 'f'; x++)
-  {
-    putchar(x);
-  }
+	for (x = 'a'; x = 'f'; x++)
+	{
+		putchar(x);
+	}
 	putchar('\n');
 	return (0);
 }
