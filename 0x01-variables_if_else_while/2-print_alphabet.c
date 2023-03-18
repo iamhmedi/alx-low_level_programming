@@ -7,14 +7,14 @@
 * more description
 * Return: the return statement
 */
+
 int main(void)
 {
- char C;
-
- for (C = 'a'; C <= 'z'; C++)
- {
-  putchar(C);
- }
- putchar('\n');
- return (0);
+  char C;
+  for (C = 'a'; C <= 'z'; C++)
+  {
+    putchar(C);
+  }
+  putchar('\n');
+  return (0);
 }
