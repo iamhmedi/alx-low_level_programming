@@ -9,10 +9,10 @@
 */
 int main(void)
 {
-  // Get the character to be written
   char ch = '1';
-  // Write the Character to stdout
-  for (ch = '1'; ch <= '9'; ch++)
+  for (ch = '1'; ch <= '36'; ch++)
+  {
     putchar(ch);
+  }
   return (0);
 }
