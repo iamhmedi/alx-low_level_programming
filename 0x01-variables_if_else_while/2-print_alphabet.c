@@ -9,11 +9,13 @@
 */
 int main(void)
 {
-  /*char ch = '1';
+  /*
+  char ch = '1';
   for (ch = '1'; ch <= '27'; ch++)
   {
     putchar(ch);
-  }*/
+  }
+  */
   
   char C;
   for(C = 'a' ; C <= 'z' ; C++) {
