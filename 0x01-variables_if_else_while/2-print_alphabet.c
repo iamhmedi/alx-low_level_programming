@@ -7,8 +7,7 @@
 * more description
 * Return: the return statement
 */
-int main(void)
-{
+int main(void){
   char C;
   
   for(C = 'a'; C <= 'z'; C++)
