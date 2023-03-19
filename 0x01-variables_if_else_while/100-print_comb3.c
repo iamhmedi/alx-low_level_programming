@@ -18,8 +18,8 @@ int main(void)
 		{
 			if (X != C)
 			{
-				putchar('C');
-				putchar('X');
+				putchar(C);
+				putchar(X);
 				if( C == '8' && X == '9')
 				continue;
 				putchar(',');
