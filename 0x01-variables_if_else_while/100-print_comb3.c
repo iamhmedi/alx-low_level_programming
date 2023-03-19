@@ -14,13 +14,13 @@ int main(void)
 
 	for (C = '0'; C <= '9'; C++)
 	{
-		for (X = C +1; X <= '9'; X++)
+		for (X = C + 1; X <= '9'; X++)
 		{
 			if (X != C)
 			{
 				putchar(C);
 				putchar(X);
-				if( C == '8' && X == '9')
+				if (C == '8' && X == '9')
 				continue;
 				putchar(',');
 				putchar(' ');
