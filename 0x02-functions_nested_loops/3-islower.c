@@ -6,7 +6,7 @@
 * Return: 1 if is lower cas else 0
 */
 
-int islower(int c)
+int _islower(int c)
 {
   if (c >= 'a' && c <= 'z')
     return (1);
