@@ -7,6 +7,10 @@
 * Return: the return statement
 */
 
+/**
+* print_alphabet - print alphabets
+*/
+
 void print_alphabet(void)
 {
 	char alpha;
