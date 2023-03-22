@@ -1,13 +1,6 @@
 #include "main.h"
 
 /**
-* main - the main function
-* print_alphabet - alphabet functions
-* more description
-* Return: the return statement
-*/
-
-/**
 * print_alphabet - print alphabets
 */
 
