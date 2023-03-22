@@ -6,7 +6,7 @@
 * Return: the return statement
 */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char alpha;
 	for(alpha = 'a'; aplha <= 'z'; alpha++)
