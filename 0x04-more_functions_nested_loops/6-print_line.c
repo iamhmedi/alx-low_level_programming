@@ -1,15 +1,24 @@
 #include "main.h"
 
 /**
-* main - ...
+* print_line - ...
 * Return: 0 or 1
 */
 
-void main(void)
+void print_line(int n)
 {
-	print_line(0);
-	print_line(2);
-	print_line(10);
-	print_line(-4);
-	return (0);
+	int x;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (x = 0; x <= n; x++)
+		{
+			_putchar(95);
+		}
+		_putchar('\n');
+	}
 }
