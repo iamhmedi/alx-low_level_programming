@@ -3,7 +3,7 @@
 /**
 * print_diagonal - ...
 * @n: params
-* Return: nil
+* Return: empty
 */
 
 void print_diagonal(int n)
@@ -18,7 +18,7 @@ void print_diagonal(int n)
 	{
 		for (x = 0; x < n; x++)
 		{
-			for (y = 0; y < n; y++)
+			for (y = 0; y < x; y++)
 			{
 				_putchar(32);
 			}
