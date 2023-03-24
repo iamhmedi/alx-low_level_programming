@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-* print_number - print something
+* print_numberx - print something
 * @n: params
 * Return: returns 0
 */
 
-void print_number(int n)
+void print_numberx(int n)
 {
 	unsigned int k = n;
 
@@ -20,7 +20,7 @@ void print_number(int n)
 	k /= 10;
 	if (k != 0)
 	{
-		print_number(k);
+		print_numberx(k);
 	}
 	_putchar((unsigned int) n % 10 + '0');
 }
