@@ -2,6 +2,7 @@
 
 /**
 * print_line - ...
+* @n: check param
 * Return: 0 or 1
 */
 
