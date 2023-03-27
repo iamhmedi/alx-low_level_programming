@@ -3,16 +3,16 @@
 
 /**
 * puts_half - description
-* @str: description
+* @s: description
 * Return: void
 */
 
-void puts_half(char *str)
+void puts_half(char *s)
 {
 	int j = 0;
 	int k;
 
-	while(str[j] != '\0')
+	while(s[j] != '\0')
 	{
 		j++;
 	}
@@ -29,7 +29,7 @@ void puts_half(char *str)
 
 	for (; k < j; k++)
 	{
-		_putchar(str[k]);
+		_putchar(s[k]);
 	}
 	_putchar('\n');
 }
