@@ -17,7 +17,7 @@ void puts_half(char *s)
 		j++;
 	}
 
-	if (j % 2 = 1)
+	if (j % 2 == 1)
 	{
 		k = (j - 1) / 2;
 		k += 1;
