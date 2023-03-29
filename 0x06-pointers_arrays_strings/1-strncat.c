@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* _strcat - description
+* _strncat - description
 * @dest: description
 * @src: description
 * @n: description
 * Return: pointer
 */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int j = 0, len = 0;
 	
