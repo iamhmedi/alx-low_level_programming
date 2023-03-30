@@ -3,23 +3,23 @@
 
 /**
 * rot13 - description
-* @n: description
+* @s: description
 * Return: pointer
 */
 
-char *rot13(char *n)
+char *rot13(char *s)
 {
 	int i, j;
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (n[i] == data[j])
+			if (s[i] == data[j])
 			{
-				n[i] = datarot[j];
+				s[i] = datarot[j];
 				break;
 			}
 		}
