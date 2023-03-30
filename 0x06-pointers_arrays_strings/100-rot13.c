@@ -7,7 +7,7 @@
 * Return: pointer
 */
 
-char *rot13(char *s)
+char *rot13(char s)
 {
 	int i, j;
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
