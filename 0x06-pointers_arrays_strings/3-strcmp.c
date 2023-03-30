@@ -4,7 +4,6 @@
 * _strcmp - description
 * @s1: description
 * @s2: description
-* @n: description
 * Return: pointer
 */
 
